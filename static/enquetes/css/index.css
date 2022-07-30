@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.corpo {
+    background-color: black;
+    color:white;
+    margin-top: 30px;
+}
+
+h1{
+  margin-left:7px;
+}
+
+h3{
+  margin-left:7px;
+}
+
+li a{
+    color:white;
+    margin-left: -25px;
+}
+
+li a:hover{
+    color: #87CEFA;
+}
+
+.titulo{
+
+    margin-left: 35px;
+}
+
+.img-t{
+    display: flex;
+}
+
+.questoes{
+    margin-left: 35px;
+}
+
+.quest{
+    list-style-type: none;
+}
+
+.parc{
+    margin-left: 1px;
+}
+
+.btn{
+    display: flex;
+    margin-left: 35px;
+    border: none;
+}

@@ -1,0 +1,60 @@
+{% load static %}
+<html>
+    <head>
+
+        <title>Página Inicial</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'enquetes/css/homepage.css' %}"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    </head>
+    <body class="corpo">
+        <header>
+            <div class="logo">
+                <h1>Enquetes<span>App</span></h1>
+                <p>Escolha suas preferências</p>
+            </div>
+                <div class="nav">
+                    <div class="nav-um">
+                        <label for="check" class="menu" id="menu" onclick="drop()">Enquetes disponíveis</label>
+                        <input type="checkbox" class="check" id="check">
+                        <div class="sub-menu" id="sub-menu">
+                            <a href="/6" class="item">Trilogia Matrix</a>
+                            <a href="/5" class="item">Universo Star Wars</a>
+                            <a href="/4" class="item">Trilogia The Hobbit</a>
+                            <a href="/3" class="item">UMC</a>
+                            <a href="/2" class="item">Trilogia Lord of The Rings</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-dois">
+                        <label for="check-dois" class="menu-dois" id="menu-dois" onclick="drop2()">Parciais</label>
+                        <input type="checkbox" class="check-dois" id="check-dois">
+                        <div class="sub-menu-dois" id="sub-menu-dois">
+                            <a href="/6/results/" class="item">Trilogia Matrix</a>
+                            <a href="/5/results/" class="item">Universo Star Wars</a>
+                            <a href="/4/results/" class="item">Trilogia The Hobbit</a>
+                            <a href="/3/results/" class="item">UMC</a>
+                            <a href="/2/results/" class="item">Trilogia Lord of The Rings</a>
+                        </div>
+                    </div>
+                </div>
+        </header>
+
+        <section>
+            <div class="texto">
+                <h1>Escolha seus filmes preferidos</h1>
+                <p>informe sua opinião sobre os melhores filmes pertencentes a cada opção de franquia apresentada</p>
+            </div>
+        </section>
+
+        <footer>
+            <div class="logo-ftr">
+                <h1>Enquetes<span>App</span></h1>
+                <p>Escolha suas preferências</p>
+            </div>
+            <a href="/admin">Admin</a>
+        </footer>
+
+        <script src="{% static 'enquetes/script/homepage.js' %}"></script>
+    </body>
+</html>

@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 105px;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+.logo h1 {
+    font-family: 'Poppins';
+    font-weight: 550;
+}
+
+.logo span {
+    font-family: 'Poppins';
+    color: #01CB15;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.logo p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    margin-top: -5px;
+    margin-left: 43px;
+}
+
+section {
+    background-color: black;
+}
+
+section input {
+    display: none;
+}
+
+.titulo {
+    margin-left: 60px;
+    padding-top: 45px;
+}
+
+.titulo h1 {
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-size: 45px;
+    width: 900px;
+}
+
+.titulo span {
+    display: flex;
+    font-family: 'Poppins';
+    color: #ffffff;
+    margin-top: -5px;
+    margin-left: 5px;
+    padding-bottom: 3px;
+    width: 520px;
+    border-bottom: solid white 1px;
+}
+
+.resutados {
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.resutados .questao {
+    font-family: 'Poppins';
+    color: white;
+    padding-top: 15px;
+
+}
+
+.questao label {
+    cursor:pointer;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    width: 515px;
+}
+
+.questao label:hover {
+    background-color: #ffffff38;
+    font-size: 16.5px;
+
+}
+
+.questao .labeldrop {
+    background-color: #ffffff23;
+    color: #01CB15;
+    font-size: 16.5px;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    margin-bottom: -5px;
+    width: 515px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.questao .labeldrop:hover {
+    background-color: #ffffff23;;
+}
+
+.questao input {
+    display: none;
+}
+
+.questao .dados {
+    display: none;
+    background-color: #ffffff23;
+    margin-top: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 515px;
+    border-bottom-left-radius: 6px ;
+    border-bottom-right-radius: 6px ;
+
+}
+
+.questao .dados span {
+    margin-left: 5px;
+}
+
+
+
+
+
+
+.btns {
+    margin-top: 40px;
+}
+
+.btns button {
+    font-family: 'Poppins';
+    font-size: 19px;
+    height: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: #ffffff23;
+    color: #01CB15;
+
+}
+
+.btns button a {
+    text-decoration: none;
+    color: #01CB15;
+}
+
+.btns button:hover {
+    border: solid #01cb157a 1px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 170px;
+    margin-top: px;
+}
+
+footer .logo-ftr {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 555px;
+    margin-top: 45px;
+}
+
+.logo-ftr h1 {
+    font-family: 'Poppins';
+    font-weight: 550;
+}
+
+.logo-ftr span {
+    font-family: 'Poppins';
+    color: #01CB15;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.logo-ftr p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    margin-top: -5px;
+    margin-left: 40px;
+}
+
+@media  (max-width: 1280px) {
+     header {
+        display: flex;
+        flex-direction: column;
+        width: 980px;
+        height: 350px;
+    }
+
+    header .logo {
+        margin-top: 25px;
+        margin-left: 140px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo h1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 150px;
+    }
+
+    .logo span {
+        display: none;
+
+    }
+
+    .logo p {
+        display: flex;
+        font-size: 40px;
+        margin-left:80px;
+
+    }
+
+    .titulo {
+
+    }
+
+    .titulo h1 {
+        font-size: 100px;
+    }
+
+    .titulo span {
+        font-size: 50px;
+        width: 800px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    .questao label {
+        font-size: 50px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        width: 800px;
+        -webkit-user-select: none;
+
+    }
+
+    .questao label:hover {
+        background-color: #ffffff23;
+        font-size: 51px;
+        transition: 0.3s;
+    }
+
+    .questao .labeldrop {
+        font-size: 52px;
+        cursor: pointer;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        margin-bottom: -5px;
+        width: 800px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .questao .dados {
+        margin-top: 5px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        width: 800px;
+        border-bottom-left-radius: 6px ;
+        border-bottom-right-radius: 6px ;
+
+    }
+
+    .questao .dados span {
+        font-size: 50px;
+        margin-left: 5px;
+        padding-left: 15px;
+    }
+
+    .btns {
+        margin-left: 0px;
+        margin-top: 40px;
+        width: 900px;
+    }
+
+    .btns button {
+        font-size: 50px;
+        height: 100px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left:5px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        background-color: #ffffff23;
+        color: #01CB15;
+
+    }
+}
+

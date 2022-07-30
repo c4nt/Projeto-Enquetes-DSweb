@@ -1,0 +1,496 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 105px;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 13px;
+    margin-left: 60px;
+}
+
+.logo h1 {
+    font-family: 'Poppins';
+    font-weight: 550;
+}
+
+.logo span {
+    font-family: 'Poppins';
+    color: #01CB15;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.logo p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+header .nav {
+    display: flex;
+    margin-left: 530px;
+    margin-top: 40px;
+}
+
+.nav .nav-um .check {
+    display: none;
+}
+
+.nav-um .menu {
+    font-family: 'Poppins';
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 200px;
+    padding: 2px;
+    margin-right: 20px;
+    -webkit-user-select: none;
+}
+
+.nav-um .menu:hover {
+    font-size: 18px;
+    transition: 0.3s;
+    color: #01CB15;
+
+}
+
+.nav-um .menudrop {
+    font-family: 'Poppins';
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    color: #01CB15;
+    font-size: 18px;
+    width: 210px;
+    padding: 2px;
+    -webkit-user-select: none;
+}
+
+
+
+.nav-um .sub-menu {
+    display: none;
+    flex-direction: column;
+    border-left: solid #01CB15 1px;
+    border-right: solid #01CB15 1px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: -2px;
+    width: 225px;
+    height: 150px;
+    overflow: hidden;
+    animation: dropdown 0.3s ;
+
+
+}
+
+@keyframes dropdown {
+    from {
+        opacity: 0%;
+        height: 0px;
+    }
+
+    to {
+
+    }
+}
+
+@keyframes dropup {
+    from {
+    }
+
+    to {
+
+        height: 0px;
+
+    }
+}
+
+@keyframes dropdown-resp {
+    from {
+        opacity: 0%;
+        height: 0px;
+    }
+
+    to {
+
+    }
+}
+
+.nav-um .sub-menu a{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+}
+
+.nav-um .sub-menu a:hover {
+    background-color: #ffffff21;
+    font-size: 18px;
+}
+
+.nav-dois .check-dois {
+    display: none;
+}
+
+.nav-dois .menu-dois {
+    font-family: 'Poppins';
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 100px;
+    padding: 2px;
+    margin-left: 55px;
+    -webkit-user-select: none;
+}
+
+.nav-dois .menu-dois:hover {
+    font-size: 18px;
+    transition: 0.3s;
+    color: #01CB15;
+
+}
+
+.nav-dois .menudrop-dois {
+    font-family: 'Poppins';
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    color: #01CB15;
+    font-size: 18px;
+    width: 210px;
+    padding: 2px;
+    -webkit-user-select: none;
+}
+
+
+
+.nav-dois .sub-menu-dois {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    border-left: solid #01CB15 1px;
+    border-right: solid #01CB15 1px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: -2px;
+    width: 225px;
+    height: 150px;
+    overflow: hidden;
+    animation: dropdown 0.3s ;
+
+
+}
+
+.nav-dois .sub-menu-dois a{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+}
+
+.nav-dois .sub-menu-dois a:hover {
+    background-color: #ffffff21;
+    font-size: 18px;
+}
+
+section {
+    background: url(../img/bg-enquetes2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+section .texto {
+    margin-top: 150px;
+    margin-left: 60px;
+    padding-bottom: 300px;
+}
+
+.texto h1 {
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-size: 65px;
+    width: 900px;
+}
+
+.texto p {
+    font-family: 'Poppins';
+    color: #01CB15;
+    width: 400px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 170px;
+    margin-top: px;
+}
+
+footer .logo-ftr {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 565px;
+    margin-top: 45px;
+}
+
+.logo-ftr h1 {
+    font-family: 'Poppins';
+    font-weight: 550;
+}
+
+.logo-ftr span {
+    font-family: 'Poppins';
+    color: #01CB15;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.logo-ftr p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    margin-top: -5px;
+    margin-left: 40px;
+}
+
+footer a {
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 310px;
+    margin-top: 70px;
+}
+
+footer a:hover{
+    color: #01CB15;
+}
+
+@media  (max-width: 1000px) {
+    section {
+        background: url(../img/bg-enquetes2.jpg);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        height: 650px;
+        width: 980px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 980px;
+        height: 700px;
+    }
+
+    header .logo {
+        margin-top: 25px;
+        margin-left: 145px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo h1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 150px;
+    }
+
+    .logo span {
+        display: none;
+
+    }
+
+    .logo p {
+        display: flex;
+        font-size: 40px;
+        margin-left:80px;
+
+    }
+
+    header .nav {
+        display: flex;
+        flex-direction: column;
+        width: 675px;
+        margin-top: 100px;
+        margin-left: 160px;
+
+
+    }
+
+    .nav-um .menu {
+        display: flex;
+        font-size: 60px;
+        width: 650px;
+        margin-left: 1.7%;
+
+    }
+
+    .nav-um .menudrop {
+        color: #01CB15;
+        font-size: 61px;
+        width: 650px;
+        padding: 2px;
+        -webkit-user-select: none;
+    }
+
+    .nav-um .menu:hover {
+        font-size: 61px;
+        transition: 0.3s;
+        color: #01CB15;
+
+    }
+
+    .nav-um .sub-menu {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 16px;
+        width: 620px;
+        height: 490px;
+    }
+
+    .nav-um .sub-menu a {
+        font-size: 50px;
+    }
+
+    .nav-um .sub-menu a:hover {
+        font-size: 41px;
+    }
+
+    .nav-dois .menu-dois {
+        display: flex;
+        font-size: 60px;
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 27%;
+
+    }
+
+    .nav-dois .menudrop-dois {
+        color: #01CB15;
+        font-size: 61px;
+        width: 650px;
+        padding: 2px;
+        -webkit-user-select: none;
+    }
+
+    .nav-dois .menu-dois:hover {
+        font-size: 61px;
+        transition: 0.3s;
+        color: #01CB15;
+
+    }
+
+    .nav-dois .sub-menu-dois {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 16px;
+        width: 620px;
+        height: 490px;
+    }
+
+    .nav-dois .sub-menu-dois a {
+        font-size: 50px;
+    }
+
+    .nav-dois .sub-menu-dois a:hover {
+        font-size: 41px;
+    }
+
+    .texto h1 {
+        font-size: 90px;
+        width: 800px;
+        margin-top: -50px;
+    }
+
+    .texto p {
+        font-size: 40px;
+        width: 700px;
+    }
+
+    footer {
+        width: 980px;
+        height: 200px;
+        margin-bottom: 0px;
+    }
+
+    footer .logo-ftr {
+        margin-top: 7%;
+        margin-left: 38%;
+    }
+
+    footer a {
+        margin-left: 150px;
+        font-size: 40px;
+    }
+
+}
+
+@media (min-width: 1001px) and (max-width: 1030px) {
+
+    header {
+        width: 100%;
+    }
+
+    header .nav {
+        margin-left: 250px;
+    }
+
+    section {
+        width: 100%;
+
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    .logo-ftr {
+        position: absolute;
+        display: flex;
+        margin-right: 500px;
+
+    }
+
+    footer a {
+        position: absolute;
+        margin-left: 740px;
+
+    }
+}
+
+
+
